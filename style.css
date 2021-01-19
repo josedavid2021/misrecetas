@@ -1,1 +1,103 @@
-/* esta es mi primero hoja de estilos */
+/* esta es mi primero hoja de estilos*/
+
+ /* comentario CSS */
+
+/*div {background-color: red;}
+
+div > p {background-color: green;}
+
+div p {background-color: blue;}*/        
+
+/*.box-blue, .box-red {
+    display: block;            
+    padding:15px;
+    font-size: 20px;
+    border-radius: 5px;
+}  
+
+.box-blue {
+    background-color: blue;           
+}
+
+.box-red {            
+    background-color: red;
+}*/
+
+/*.box-red {
+    display: block;
+    background-color: red;
+    padding:15px;
+    font-size: 20px;
+    border-radius: 5px;
+}*/        
+
+/*.box {
+    display: block;            
+    padding:15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-pink {
+    background-color: pink;
+}*/
+
+/*.caja > .linea {
+    display: block;            
+    padding:15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}*/
+
+
+
+/*.caja .linea {
+    display: block;            
+    padding:15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}*/
+
+/*.linea {
+    text-decoration: underline; 
+}*/
+
+
+.caja {
+    display: block;            
+    padding:15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;    
+}
+
+.caja.caja-roja { /*----> class="caja caja-roja" */
+    background-color: red;        
+} 
+
+.caja .caja-roja { /* --> <div class="roja">   >   <div class="caja-roja"> */
+
+}
+
+.caja.caja-blue {
+    background-color: blue;    
+} 
+
+.caja-roja {
+    background-color: red;
+}
+
+
+
+
