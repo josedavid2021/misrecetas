@@ -74,7 +74,7 @@ div p {background-color: blue;}*/
 }*/
 
 
-.caja {
+/*.caja {
     display: block;            
     padding:15px;
     font-size: 20px;
@@ -82,11 +82,11 @@ div p {background-color: blue;}*/
     border: 1px solid black;    
 }
 
-.caja.caja-roja { /*----> class="caja caja-roja" */
+/*.caja.caja-roja { ----> class="caja caja-roja" 
     background-color: red;        
 } 
 
-.caja .caja-roja { /* --> <div class="roja">   >   <div class="caja-roja"> */
+.caja .caja-roja { --> <div class="roja">   >   <div class="caja-roja">
 
 }
 
@@ -96,7 +96,25 @@ div p {background-color: blue;}*/
 
 .caja-roja {
     background-color: red;
-}
+}*/
+
+/*p {color:red}
+.mi-parrafo {color:green}*/
+
+/*.clase1 .clase2
+
+div.mi-parrafo {
+    color: blue;
+}*/
+
+/*p {color:red}
+
+span.blue {color:blue}
+
+.blue {color:green}
+span {color:pink}*/
+
+
 
 
 
