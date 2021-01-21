@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
 /*.texto {
     font-family:'Lucida Sans';
     font-size: 16px;
@@ -8,11 +13,128 @@
     text-decoration-color: red;
     color:#4ba56d;
     color: rgba(88, 127, 226, 0.349);
-    
+    line-height: 1.2;    
+}*/
+
+/* {
+    font-family: Verdana;
+}*/
+
+/*.imagen {
+    width: 100%;
+    height:auto;
 }*/
 
 .tamaño {
-    background-color: red;
+    /*background-color: red;
     padding: 10px;
-    margin: 20px;
+    border: 8px solid green;*/
+    /*width: 100px; */
+    /*width: 100%; */
+    /*width: 100vw;*/
+    /*height: auto;*/ /* por defecto height: auto */    
+    /*height: 100vh;*/
+    /*height: 10em;*/
+    /*overflow: hidden;*/
+    /*width: 100vw;
+    height: 100vh;*/
+    /*overflow: auto;*/
+    /*height:100px; */
 }
+
+.margin-padding {
+
+    /*background-color: green;*/
+    /*border: 2px solid red;*/
+    /*margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 150px;
+    margin-right: 10px;*/
+    /*margin: 10px;*/
+    /*margin: 20px 10px 12px 150px;*/    
+    /*margin: 100px 40px;*/
+    /*padding: 80px 10px;*/
+
+    /*margin: 20px 10px 12px 150px;*/ /* no vale!! */
+
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;*/
+
+    /*margin: 10px; 
+    margin-left:20px;*/
+
+    
+    /*margin: 10px; 
+    margin-left:20px;*/
+
+    /*padding: 20px 12px 20px 40px;*/
+    /*padding: 10px;*/
+    
+    /*margin-bottom: -10px;*/
+
+   
+
+}
+
+/*.margin-padding2 {
+    background-color: red;
+}*/
+
+/*.padre {
+    font-size: 50px;
+}
+
+.test-em {
+    font-size: 1.178rem; 
+}*/
+
+.background {
+    width:400px;
+    height: 400px;
+    /*background-color:rgba(100, 200, 132, 0.2);
+
+    background-image: url('_resources/hojita.png');
+
+    background-size: 10px;
+
+    background-repeat: repeat-y;*/
+
+    /*background-position: center;*/
+
+    /*background-size: cover;*/
+
+    /*background: red url('_resources/hojita.png') repeat;
+    background-size: 10px;*/
+
+}
+
+.border {
+    
+    /*border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;*/
+
+    /*border-radius: 10em;*/
+
+    margin: 2em;
+    padding: 2em;
+
+    border: 10px solid #ccc;    
+
+    border-top-left-radius: 10px;
+    
+
+    /*background: linear-gradient(bottom, white, red);*/
+    /* background: rgb(173,173,173); */
+    background: linear-gradient(90deg, rgba(173,173,173,1) 0%, rgba(9,9,121,1) 54%, rgba(255,0,0,1) 100%);
+
+}
+
+.padre {
+    display: flex;
+}
+
+
+
