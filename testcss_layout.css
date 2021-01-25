@@ -1,0 +1,89 @@
+/*.caja {
+    background-color: red;
+    color:white;
+    padding: 1em;
+    border:1px solid black;
+    
+}
+
+.caja1 {    
+    position: relative;
+    background-color: green;
+}
+
+
+.caja2 {
+    position: relative;
+    background-color: blue;
+}
+
+.hijo {
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    top:0;
+    left:0;
+   
+
+}
+
+.hijo {
+    z-index:1;
+}
+
+.caja3 {
+    background-color: pink;
+}
+
+.caja4 {   
+    background-color: yellow;
+}
+
+*/
+
+
+
+/*.caja {
+    background-color: red;
+    color:white;
+    padding: 1em;
+    border:1px solid black;    
+}
+
+.caja1 {
+    position: sticky;
+    top:0;
+    width: 500px;
+    height: 20px;
+    background-color: black;
+    
+}*/
+
+.block {
+    display: block;
+    background-color: red;
+}
+
+.inline {
+    display: inline;
+    background-color: blue;
+    /*margin-top:10px;
+    margin-bottom: 100px;
+    height: 100px;
+    width: 200px;*/
+    margin-right:10px
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: green;
+    height:50px;
+}
+
+
+
+
+
+
