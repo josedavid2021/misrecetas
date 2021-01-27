@@ -3,21 +3,23 @@
     width: 500px;
     background-color: blue;
 
-    display: flex;
-    /*flex-wrap: wrap;*/
+    display: flex; 
 
-    overflow-x: scroll; 
+    justify-content: center;
+    align-items: flex-end;
+   
+    
 }
 
 .hijo {   
     border: 2px solid black;
     background-color: yellow;
     height: 100px;
-    width: 100px;    
-    flex-shrink: 0;  
+    width: 100px;  
+        
 }
 
-
-
-
+.derecha {
+    margin-left: auto;
+}
 
