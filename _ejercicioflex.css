@@ -1,0 +1,25 @@
+* {box-sizing: border-box}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 1em;  
+    background-color:coral;  
+    display: flex;   
+}
+
+section {
+    background-color: red;
+    width: 300px;
+    flex-grow: 1;
+    height: 300px;
+}
+
+aside {
+    background-color: blue;
+    height: 300px;
+    min-width: 300px;
+    flex-shrink: 0;
+}
+
