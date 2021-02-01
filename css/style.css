@@ -1,0 +1,71 @@
+@import 'reset.css';
+@import 'basic.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'layout.css';
+@import 'text.css';
+
+ /* barra de navegación */
+
+.nav-main ul {
+    display: flex;
+    color: grey;    
+}
+
+.nav-main li {
+    margin-right: .5em;      
+}
+
+.nav-main li:last-child {
+    margin-right: 0;
+}
+
+.nav-main a {
+    color: black;
+}
+
+.nav-main a:hover {
+    text-decoration: underline;
+}
+
+.nav-main .separator {
+    color: #ccc;
+}
+
+/* main */
+#main {
+    display: flex;
+}
+
+
+/* section */
+#main section {
+    width: 70%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main section img {
+    width: 100%;
+    height: auto;
+}
+
+#main section div {
+    background-color: hotpink;
+    width: 40%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+/* aside */
+
+#main aside {
+    width: 30%;
+    background-color: red;
+}

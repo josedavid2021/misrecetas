@@ -1,0 +1,11 @@
+* { 
+    box-sizing: border-box; /* border y el padding cuente como anchura */
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+
