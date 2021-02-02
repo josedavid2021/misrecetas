@@ -4,6 +4,8 @@
 @import 'footer.css';
 @import 'layout.css';
 @import 'text.css';
+@import 'grid.css';
+
 
  /* barra de navegación */
 
@@ -32,31 +34,50 @@
     color: #ccc;
 }
 
-/* main */
-#main {
-    display: flex;
+section {
+    
 }
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside {
+}
+
+
+/* main */
+/*.main-home {
+    display: flex;
+}*/
 
 
 /* section */
-#main section {
+/*.main-home section {
     width: 70%;
-    background-color: blue;
+    
     display: flex;
     flex-wrap: wrap;
+    margin-left:-50px;
 }
 
-#main section img {
+.main-home section img {
     width: 100%;
     height: auto;
 }
 
-#main section div {
+.receta-full {
     background-color: hotpink;
-    width: 40%;
-    margin-right: 5px;
+    width: calc(50% - 50px);
+    margin-left: 50px;
     margin-bottom: 5px;
-}
+
+}*/
+
+/*.receta-full:nth-child(2n+1) {
+    margin-right: 0;
+}*/
 
 
 
@@ -65,7 +86,7 @@
 
 /* aside */
 
-#main aside {
+/*.main-home aside {
     width: 30%;
     background-color: red;
-}
+}*/

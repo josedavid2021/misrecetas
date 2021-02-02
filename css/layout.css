@@ -13,6 +13,8 @@
     flex-direction: row;
 }
 
+ /* margenes y padding */
+
 .mb-1 {
     margin-bottom: 1em;
 }
