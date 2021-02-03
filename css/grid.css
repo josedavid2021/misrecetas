@@ -9,7 +9,41 @@
     margin-left: 1em;
 }
 
+.col-1 {
+    width: calc(8.33% - 1em);
+}
+
+.col-3 {
+    width: calc(25% - 1em);
+}
+
+.col-4 {
+    width: calc(33.33% - 1em);
+}
+
+.col-5 {
+    width: calc(41.66% - 1em);
+}
+
+.col-6 {
+    width: calc(50% - 1em);
+}
+
+.col-8 {
+    width: calc(66.66% - 1em);
+}
+
+.col-9 {
+    width: calc(75% - 1em);
+}
+
+.col-12 {
+    width: calc(100% - 1em);
+}
+
+
 @media (min-width: 768px) { /* 768 a infinito */ 
+    
     .col-desk-1 {
         width: calc(8.33% - 1em);
     }

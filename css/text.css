@@ -1,19 +1,31 @@
+.fnt-xs2 {
+    font-size: 10px;    
+}
+
 .fnt-xs {
-    font-size: 8px;    
+    font-size: 12px;    
+}
+
+.fnt-md {
+    font-size: 14px;    
 }
 
 .fnt-base {
     font-size: 16px;    
 }
 
-.fnt-md {
-    font-size: 18px;    
-}
-
 .fnt-lg {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .fnt-xl {
+    font-size: 20px;
+}
+
+.fnt-xl2 {
     font-size: 22px;
+}
+
+.txt-center {
+    text-align: center;
 }

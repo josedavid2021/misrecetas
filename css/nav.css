@@ -1,0 +1,26 @@
+ /* barra de navegación */
+
+.nav-main ul {
+    display: flex;
+    color: grey;    
+}
+
+.nav-main li {
+    margin-right: .5em;      
+}
+
+.nav-main li:last-child {
+    margin-right: 0;
+}
+
+.nav-main a {
+    color: black;
+}
+
+.nav-main a:hover {
+    text-decoration: underline;
+}
+
+.nav-main .separator {
+    color: #ccc;
+}

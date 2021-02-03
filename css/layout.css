@@ -3,7 +3,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1em;
-    background-color: #eee;
 }
 
 
@@ -15,6 +14,10 @@
 
  /* margenes y padding */
 
+.mb-05 {
+    margin-bottom: .5em;
+}
+
 .mb-1 {
     margin-bottom: 1em;
 }
@@ -25,5 +28,9 @@
 
 .mb-3 {
     margin-bottom: 3em;
+}
+
+.pad-1 {
+    padding: 1em;
 }
 

@@ -1,0 +1,5 @@
+.img-md {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;    
+}
