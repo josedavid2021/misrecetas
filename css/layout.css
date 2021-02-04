@@ -5,11 +5,19 @@
     padding: 0 1em;
 }
 
-
 .block-center-row {
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.row-full {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-right: -50vw;
+    margin-left: -50vw;
 }
 
  /* margenes y padding */
@@ -32,5 +40,13 @@
 
 .pad-1 {
     padding: 1em;
+}
+
+.pad-2 {
+    padding: 2em;
+}
+
+.separator-block {
+    padding-right: 2em;
 }
 

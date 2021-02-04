@@ -13,6 +13,10 @@
     width: calc(8.33% - 1em);
 }
 
+.col-2 {
+    width: calc(16.66% - 1em);
+}
+
 .col-3 {
     width: calc(25% - 1em);
 }
@@ -29,6 +33,10 @@
     width: calc(50% - 1em);
 }
 
+.col-7 {
+    width: calc(58.33% - 1em);
+}
+
 .col-8 {
     width: calc(66.66% - 1em);
 }
@@ -36,6 +44,15 @@
 .col-9 {
     width: calc(75% - 1em);
 }
+
+.col-10 {
+    width: calc(83.33% - 1em);
+}
+
+.col-11 {
+    width: calc(91.66% - 1em);
+}
+
 
 .col-12 {
     width: calc(100% - 1em);
@@ -46,6 +63,10 @@
     
     .col-desk-1 {
         width: calc(8.33% - 1em);
+    }
+
+    .col-desk-2 {
+        width: calc(16.66% - 1em);
     }
     
     .col-desk-3 {
@@ -63,6 +84,10 @@
     .col-desk-6 {
         width: calc(50% - 1em);
     }
+
+    .col-desk-7 {
+        width: calc(58.33% - 1em);
+    }
     
     .col-desk-8 {
         width: calc(66.66% - 1em);
@@ -72,6 +97,10 @@
         width: calc(75% - 1em);
     }
     
+    .col-desk-10 {
+        width: calc(83.33% - 1em);
+    }
+
     .col-desk-12 {
         width: calc(100% - 1em);
     }
@@ -81,6 +110,10 @@
 @media (min-width: 500px) and (max-width: 767px) { /* 500 a 767 */
     .col-tab-1 {
         width: calc(8.33% - 1em);
+    }
+
+    .col-tab-2 {
+        width: calc(16.66% - 1em);
     }
     
     .col-tab-3 {
@@ -98,6 +131,10 @@
     .col-tab-6 {
         width: calc(50% - 1em);
     }
+
+    .col-tab-7 {
+        width: calc(58.33% - 1em);
+    }
     
     .col-tab-8 {
         width: calc(66.66% - 1em);
@@ -106,7 +143,11 @@
     .col-tab-9 {
         width: calc(75% - 1em);
     }
-    
+
+    .col-tab-10 {
+        width: calc(83.33% - 1em);
+    }
+
     .col-tab-12 {
         width: calc(100% - 1em);
     }
@@ -118,6 +159,10 @@
 @media (max-width: 499px) { /* de 0 a 599 */
     .col-mob-1 {
         width: calc(8.33% - 1em);
+    }
+
+    .col-mob2 {
+        width: calc(16.66% - 1em);
     }
     
     .col-mob-3 {
@@ -135,6 +180,10 @@
     .col-mob-6 {
         width: calc(50% - 1em);
     }
+
+    .col-mob-7 {
+        width: calc(58.33% - 1em);
+    }
     
     .col-mob-8 {
         width: calc(66.66% - 1em);
@@ -142,6 +191,10 @@
     
     .col-mob-9 {
         width: calc(75% - 1em);
+    }
+
+    .col-mob-10 {
+        width: calc(83.33% - 1em);
     }
     
     .col-mob-12 {
